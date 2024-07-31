@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "release-it"
+    "release": "release-it",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/BlackAndWhite-Web/demo#readme",
   "devDependencies": {
+    "git-cz": "^4.9.0",
     "release-it": "^17.6.0"
   },
   "npm": {
