@@ -1,6 +1,6 @@
 const a = 'demo';
-const b = a;
+const x = a;
 export {
     a,
-    b
+    x
 }
